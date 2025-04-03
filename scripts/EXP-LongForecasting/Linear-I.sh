@@ -7,7 +7,7 @@ if [ ! -d "./logs/LongForecasting" ]; then
 fi
 seq_len=336
 model_name=NLinear
-for pred_len in 96 192 336 729
+for pred_len in 96 192 336 720
 do
 python -u run_longExp.py \
   --is_training 1 \
