@@ -22,7 +22,7 @@ python -u run_longExp.py \
   --pred_len 24 \
   --enc_in 7 \
   --des 'Exp' \
-  --itr 1 --batch_size 32 --learning_rate 0.005 >logs/LongForecasting/$model_name'_'Etth1_$seq_len'_'24.log
+  --itr 1 --batch_size 32 --learning_rate 0.005 >logs/LongForecasting/$model_name'_'Etth1-30_$seq_len'_'24.log
 
 model_name=DLinear
 python -u run_longExp.py \
@@ -37,7 +37,7 @@ python -u run_longExp.py \
   --pred_len 24 \
   --enc_in 7 \
   --des 'Exp' \
-  --itr 1 --batch_size 32 --learning_rate 0.005 >logs/LongForecasting/$model_name'_'Etth1_$seq_len'_'24.log
+  --itr 1 --batch_size 32 --learning_rate 0.005 >logs/LongForecasting/$model_name'_'Etth1-30_$seq_len'_'24.log
 
 model_name=NLinear
 python -u run_longExp.py \
@@ -52,4 +52,4 @@ python -u run_longExp.py \
   --pred_len 24 \
   --enc_in 7 \
   --des 'Exp' \
-  --itr 1 --batch_size 32 --learning_rate 0.005 >logs/LongForecasting/$model_name'_'Etth1_$seq_len'_'24.log
+  --itr 1 --batch_size 32 --learning_rate 0.005 >logs/LongForecasting/$model_name'_'Etth1-30_$seq_len'_'24.log
