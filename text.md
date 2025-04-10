@@ -56,3 +56,18 @@ ttm
 
 ### 250409...
 或许缺一个列的部分更好补也更现实。。。
+
+### 250410
+
+ttmb
+++++++++++++++++++++ Test MSE output: ++++++++++++++++++++
+{'eval_loss': 0.531948983669281, 'eval_model_preparation_time': 0.0019, 'eval_runtime': 0.5083, 'eval_samples_per_second': 5525.955, 'eval_steps_per_second': 86.558}
+ttm
+{'eval_loss': 0.43784961104393005, 'eval_model_preparation_time': 0.0012, 'eval_runtime': 0.4607, 'eval_samples_per_second': 6096.984, 'eval_steps_per_second': 95.503}
+
+xia si wo le 
+ttm
+{'eval_loss': 0.37126100063323975, 'eval_model_preparation_time': 0.0013, 'eval_runtime': 0.466, 'eval_samples_per_second': 6028.201, 'eval_steps_per_second': 94.425}
+ttmb
+{'eval_loss': 0.36998507380485535, 'eval_model_preparation_time': 0.0013, 'eval_runtime': 0.4923, 'eval_samples_per_second': 5705.969, 'eval_steps_per_second': 89.378}
+4872
