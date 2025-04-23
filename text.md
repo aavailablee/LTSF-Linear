@@ -71,3 +71,12 @@ ttm
 ttmb
 {'eval_loss': 0.36998507380485535, 'eval_model_preparation_time': 0.0013, 'eval_runtime': 0.4923, 'eval_samples_per_second': 5705.969, 'eval_steps_per_second': 89.378}
 4872
+
+## 250423
+++++++++++++++++++++ Test MSE output: ++++++++++++++++++++
+{'eval_loss': 0.5525841116905212, 'eval_model_preparation_time': 0.0012, 'eval_runtime': 3.0419, 'eval_samples_per_second': 1145.676, 'eval_steps_per_second': 18.081}
+4824trafficttmb
+++++++++++++++++++++ Test MaE output: ++++++++++++++++++++
+{'eval_loss': 0.33510562777519226, 'eval_model_preparation_time': 0.0014, 'eval_runtime': 3.022, 'eval_samples_per_second': 1153.218, 'eval_steps_per_second': 18.2}
+
+mse:0.6223776936531067, mae:0.3889670670032501 dlinear
